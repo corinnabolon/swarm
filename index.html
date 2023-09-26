@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+    defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Swarm</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid">
+      <section class="row justify-content-around">
+        <div class="col-12 d-flex justify-content-between">
+          <p class="large-padding">Immortal Swarm</p>
+          <button id="startOverButton" class="btn me-5 my-2">Start Over</button>
+        </div>
+      </section>
+  </header>
+
+
+  <main>
+    <div class="container-fluid">
+      <section id="game" class="row justify-content-around">
+        <div class="col-3">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <button onclick="Attack('🏤')" class="btn m-3">🏤
+              <p class="pt-3">Hotel</p>
+              <p id="🏤">No Citizens</p>
+            </button>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <button onclick="Attack('🏥')" class="btn m-3">🏥
+              <p class="pt-3">Hospital</p>
+              <p id="🏥">No Citizens</p>
+            </button>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <button onclick="Attack('🏭')" class="btn m-3">🏭
+              <p class="pt-3">Factory</p>
+              <p id="🏭">No Citizens</p>
+            </button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <button onclick="Attack('🏢')" class="btn m-3">🏢
+              <p class="pt-3">Office</p>
+              <p id="🏢">No Citizens</p>
+            </button>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <button onclick="Attack('🏣')" class="btn m-3">🏣
+              <p class="pt-3">Post Office</p>
+              <p id="🏣">Nobody</p>
+            </button>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <button onclick="Attack('🏫️')" class="btn m-3">🏫️
+              <p class="pt-3">School</p>
+              <p id="🏫️">No Citizens</p>
+            </button>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <button onclick="Attack('🏰️')" class="btn m-3">🏰️
+              <p class="pt-3">Castle</p>
+              <p id="🏰️">No Citizens</p>
+            </button>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <button onclick="Attack('🎪️')" class="btn m-3">🎪️
+              <p class="pt-3">Circus</p>
+              <p id="🎪️">No Citizens</p>
+            </button>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <button onclick="Attack('🏦️')" class="btn m-3">🏦️
+              <p class="pt-3">Bank</p>
+              <p id="🏦️">No Citizens</p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
